@@ -12,6 +12,9 @@
 1. script `GET api/transactions` para obter as transações 
 1. script `POST api/transaction/upload` para fazer upload do ficheiro TXT (enviar o ficheiro com parametro de nome script `file`) 
 
+# Testes
+1. Este projecto usa o JAPA para testes unitários, para executa-los basta rodar: script `node -r @adonisjs/assembler/build/register japaFile.ts`
+
 # Desafio programação - para vaga desenvolvedor
 
 Por favor leiam este documento do começo ao fim, com muita atenção.

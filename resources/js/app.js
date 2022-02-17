@@ -48,8 +48,6 @@ function ekUpload() {
   }
 
   function parseFile(file) {
-
-    console.log(file.name);
     output(
       '<strong>' + encodeURI(file.name) + '</strong>'
     );

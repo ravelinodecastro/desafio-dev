@@ -11,8 +11,6 @@ Route.group(() => {
         .preload('recipient')
         .preload('store')
         .orderBy('createdAt', 'desc').exec();
-
-        console.log(transactions)
         return view.render('welcome', { transactions })
     })
 
