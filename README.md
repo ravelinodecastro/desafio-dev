@@ -1,3 +1,6 @@
+# Breve considerações
+Este projecto foi feito com o FrameWork AdonisJs na sua versão 5. A linguagem principal utilizada foi TypeScript e o padrão utilizado é MVC, ou seja o front-end e o back-end estão acoplados. A base de dados escolhida é MySql, Japa foi a ferramenta para testes unitários e docker e docker-compose para rodar aplicação dentro de um ambiente docker.
+
 # Execução da Aplicação
 
 1. Criar um base de dados
